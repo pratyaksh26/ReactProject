@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 import all_product from "../Components/Assets/all_product";
 import dropdown_icon from '../Components/Assets/dropdown_icon.png';
 
-const ShopCategory = (props) => {
+const ShopCategory = ( props) => {
     // const {all_product}=useContext(ShopContext)
     const [ct,setCt]=useState(1)
     const handleMore=()=>{
