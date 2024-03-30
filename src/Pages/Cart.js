@@ -30,7 +30,7 @@ const Cart = (props) => {
                 </div>
                 {cart.map((item, i) => (
                     <div className='cart-item' key={i}>
-                      <Link to={`/Product/${item.id}`}>  <img src={item.image} alt={item.name} /></Link>
+                    <img src={item.image} alt={item.name} />
                         <span>{item.name}</span>
                         <span>{item.new_price}</span>
                         <span>1</span>
