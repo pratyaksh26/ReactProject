@@ -1,0 +1,33 @@
+.offer{
+    display: flex;
+    justify-content: center;
+}
+.offer-box{
+    width: 80%;
+    background-image: linear-gradient(rgb(250, 211, 217),white);
+    margin-top: 3rem;
+    display: flex;
+    height: 40rem;
+}
+.o-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+.o-left>:first-child{
+    width: 80%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.o-bt{
+    width: 30%;
+    height:50px;
+    background-color: rgb(245, 98, 98);
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+

@@ -1,0 +1,79 @@
+.navbar{
+    height:90px;
+    background-color:rgb(245, 102, 102);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.n-left{
+    display:flex;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+    margin-left: -11rem;
+}
+.n-left>:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.n-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    color:white;
+    
+}
+
+.n-ul li{
+    display:flex;
+    align-items: center;
+    position: relative;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: white;
+    
+}
+.n-ul hr{
+    border:2px;
+    width:80%;
+    height:3px;
+   background-color: red;
+}
+.n-right{
+    display:flex;
+    position: relative;
+    gap:1rem;
+    margin-right: -12rem;
+}
+.login-bt{
+    height :2.5rem;
+    width:6rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+}
+.login-bt:active{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.cart-count{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: -1.6rem;
+    margin-top: -.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nn{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}

@@ -1,0 +1,43 @@
+.hero{
+    background-image: linear-gradient(rgb(250, 211, 217),white);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+.h-left>:first-child{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.h-left>:nth-child(2){
+    font-size: 80px;
+    font-weight: bold;
+}
+.col-bt{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height:50px;
+    width:11rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    position: relative;
+    gap: 1rem;
+    cursor: pointer;
+}
+.col-bt:active{
+    background-color: brown;
+}
+
+.hand_icon{
+    height:80px;
+    width: 80px;
+}

@@ -1,0 +1,33 @@
+.popular{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-box{
+   
+    display: flex;
+    
+}
+.p-card{
+    height: 400px;
+    
+    width: 16rem;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2%;
+    border-radius: 2rem;
+    padding:1rem ;
+}
+.price{
+    display: flex;
+  
+}
+.prode-img{
+    height:380px;
+}

@@ -1,0 +1,47 @@
+.new{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+}
+.new>:first-child{
+    text-align:center;
+}
+
+.n-box{  
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.n-card{
+    height: 400px;
+    width: 16rem;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    border-radius: 2rem;
+    padding:1rem ;
+}
+.price{
+    display: flex;
+    position: relative;
+    gap:.5rem;
+  
+}
+
+.prod-img{
+    height:300px;
+}
+.n-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.price>:nth-child(2){
+    text-decoration:2px line-through;
+    color: rgb(95, 94, 94);
+    margin-left: 1rem;
+}

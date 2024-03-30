@@ -1,0 +1,43 @@
+.footer {
+  background-color: rgb(249, 145, 145);
+  color: #fff;
+  padding: 30px 0; /* Increased padding for top and bottom */
+  text-align: center;
+  font-family: Arial, sans-serif; /* Use a common font family for readability */
+}
+
+.shopper {
+  font-size: 22px; /* Increased font size for the shopper text */
+  margin-bottom: 20px; /* Increased bottom margin for separation */
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px; /* Equal spacing around the links */
+  font-size: 16px; /* Adjusted font size for better readability */
+}
+
+.links a:hover {
+  text-decoration: underline; /* Add underline on hover for better interactivity */
+}
+
+.social-icons {
+  margin-top: 30px; /* Increased top margin for separation */
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px; /* Equal spacing around the social icons */
+}
+
+.social-icons img {
+  width: 40px; /* Increased icon size for better visibility */
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); /* Slightly larger scale on hover for a subtle effect */
+}
